@@ -62,7 +62,8 @@ read -r NEXT
 go() {
     #echo 'Running Script'
     #output=$(eval "$(go run main.go)")
-    go run main.go
+    #go run main.go
+    ./exec
     #echo output
     #exit
 }
